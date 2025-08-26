@@ -37,14 +37,14 @@ const checkUser = async () => {
       // console.log(userCredential.email);
       if (userData.exists()) {
         console.log(userData.data().email);
-        window.location.href = "./Dashboard/index.html";
+        window.location.href = "../Dashboard/index.html";
       } else {
-        window.location.href = "./SINGUP/index.html";
+        window.location.href = "../SINGUP/index.html";
       }
 
       // const user = await userCredential.user
       // console.log(user);
-    }
+    } 
   });
 };
 
