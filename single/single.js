@@ -48,7 +48,7 @@ const getdetails = async () => {
                   <p>${data.description}</p>
                     <p>  ⭐⭐  </p>
                  
-                  <button class="shop" onclick="window.location.href='../index.html'"  > Continue shoping</button>
+                  <button class="shop" onclick="window.location.href='../Dashboard/index.html'"  > Continue shoping</button>
                 </div>
               
             </div>
