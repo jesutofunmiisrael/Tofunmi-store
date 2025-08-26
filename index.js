@@ -25,7 +25,7 @@ const toggle = document.getElementById("menuToggle");
 const navbar = document.getElementById("navbar");
 let userId;
 
-const checkUser = async () => {
+const checkUser =  () => {
   onAuthStateChanged(auth, async (user) => {
     if (user) {
       // console.log(user.uid);
@@ -51,9 +51,7 @@ const checkUser = async () => {
   });
 };
 
-buyEl.addEventListener("click", () => {
-  checkUser();
-});
+buyEl.addEventListener("click", checkUser);
 
 toggle.addEventListener("click", () => {
   navbar.classList.toggle("active");
