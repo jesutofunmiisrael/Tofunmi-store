@@ -17,7 +17,7 @@ import {
   updateDoc,
   setDoc,
 } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js";
-import { app } from "../fireconfig/firebaseconfig.js";
+import { app } from "./fireconfig/firebaseconfig.js";
 
 const auth = getAuth(app);
 const db = getFirestore(app);
@@ -433,7 +433,7 @@ const checkoutItempayment = async () => {
 
     if (cartDocs) {
       alert("Order placed successfully! Thank you for your purchase.🤑");
-      window.location.href = "../Dashboard/index.html";
+      window.location.href = "./index.html";
     }
   } catch (error) {
     console.log(error);

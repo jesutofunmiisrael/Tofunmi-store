@@ -39,7 +39,7 @@ const checkUser = async()=>{
             // console.log(userCredential.email);
             if(userData.exists()){
                 console.log(userData.data().email);
-                window.location.href = "../Dashboard/index.html"   
+                window.location.href = "../index.html"   
             }
             else{
                 window.location.href = "../SINGUP/index.html"

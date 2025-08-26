@@ -19,7 +19,7 @@ const signIn = async()=>{
      const user = await usercredential.user
      if(user){
         alert("welcome")
-        window.location.href="../Dashboard/index.html"
+        window.location.href="../index.html"
      }  
     } catch (error) {
     console.log(error)
