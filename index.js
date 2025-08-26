@@ -45,6 +45,9 @@ const checkUser = async () => {
       // const user = await userCredential.user
       // console.log(user);
     } 
+    else {
+        window.location.href = "./SINGUP/index.html";
+      }
   });
 };
 
