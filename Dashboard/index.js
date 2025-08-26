@@ -112,7 +112,7 @@ onAuthStateChanged(auth, async (user) => {
     };
     addProduct();
   } else {
-    window.location.href = "../SINGIN/index.html";
+    // window.location.href = "../SINGIN/index.html";
   }
 });
 
