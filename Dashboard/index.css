@@ -63,11 +63,11 @@ body {
   display: flex;
 }
 #add {
-  background-color: red;
-  width: 20px;
+  background-color: green;
+  width: 18px;
   border-radius: 30px;
-  height: 26px;
-  margin-left: -15px;
+  height: 21px;
+  margin-left: -20px;
 }
 .countText {
   justify-items: center;
@@ -118,12 +118,13 @@ body {
 }
 .view {
   /* background-color: rgb(34, 79, 52); */
-  color: greenyellow;
+  color: black;
   /* margin-top: 20px; */
   /* padding: 0.8em 2em; */
   font-size: 1rem;
   border: none;
   cursor: pointer;
+  text-decoration: none;
   /* border-radius: 5px; */
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif; */
 }
