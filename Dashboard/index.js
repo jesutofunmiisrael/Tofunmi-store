@@ -66,7 +66,7 @@ onAuthStateChanged(auth, async (user) => {
 
         data.forEach((cloth) => {
           itemEl.innerHTML += `  <div class="product">
-          <img src="${cloth.image}" width="200px" height ="200px" class ="img-con">
+          <img src="${cloth.image}" width="250px" height ="300px" class ="img-con">
           <div class="infoCloth">
           <h1 class= "tie">${cloth.title}</h1>
           <div class  = "clo">

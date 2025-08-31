@@ -28,7 +28,7 @@ const signupFormEl = document.getElementById
 const numberEl = document.getElementById("number")
 
 const UsernameEl = document.getElementById("USERNAME")
-
+// const sigEl = document.getElementById("sig")
 const checkEl = document.getElementById("checks")
 
 checkEl.addEventListener("change", function () {
@@ -36,8 +36,9 @@ checkEl.addEventListener("change", function () {
 })
 
 const signup = async () => {
+  
   console.log("singing up")
-
+  // sigEl.disabled = true;
   try {
     const usercredential = await createUserWithEmailAndPassword(auth, emailEl.value, passwordEl.value)
 
@@ -69,6 +70,7 @@ const signup = async () => {
 
   } finally {
     console.log("Done!")
+      // sigEl.disabled =false ;
   }
 }
 
