@@ -154,8 +154,8 @@ background-color: rgb(194, 240, 212);
 
 .white{
   background-color: #5fbd7d;
-  /* margin-top: ; */
-  border-top-left-radius: 70px;
+  margin-top: 10px;
+  border-top-left-radius: 90px;
   border-bottom-right-radius: 30px;
 }
 
